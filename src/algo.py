@@ -24,4 +24,4 @@ def algo_threshold_v2(data: List[Tuple[float, float]], **kwargs) -> List[Tuple[f
     ]
 
 
-algo_l = [algo_threshold_v1, algo_threshold_v2]
+algo_l = [algo_threshold_v1]

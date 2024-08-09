@@ -49,3 +49,5 @@ python3 main.py
 1. [TSML-Web](https://www.timeseriesclassification.com/index.php)
 2. [pyts](https://github.com/johannfaouzi/pyts)
 3. [aeon](https://github.com/aeon-toolkit/aeon)
+4. [](https://stackoverflow.com/questions/11752727/pattern-recognition-in-time-series)
+5. [](https://stackoverflow.com/a/32849542)

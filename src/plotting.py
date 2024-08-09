@@ -20,10 +20,10 @@ def plot_spikes(data: List[Tuple[float, float]], spikes: List[Tuple[float, float
 	X, y = zip(*data)
 
 	# settings for the plot
-	plt.figure(figsize=(30, 10))
+	plt.figure(figsize=(180, 10))
 	ax = plt.gca()
-	ax.xaxis.set_major_locator(MultipleLocator(50))
-	ax.xaxis.set_minor_locator(MultipleLocator(10))
+	ax.xaxis.set_major_locator(MultipleLocator(10))
+	ax.xaxis.set_minor_locator(MultipleLocator(1))
 	plt.xlabel('X')
 	plt.ylabel('y')
 	plt.title('Line Plot: ' + file_name)
